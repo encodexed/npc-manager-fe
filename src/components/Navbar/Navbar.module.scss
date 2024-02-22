@@ -1,3 +1,46 @@
+@use "../../styles/partials/colors";
+
 .nav {
-	border: 1px solid red;
+	border-bottom: 1px solid gray;
+	background-color: colors.$brand-1;
+	height: 70px;
+	width: 100%;
+	position: fixed;
+	font-weight: 700;
+
+	&__container {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin: 0px 20px;
+		height: 100%;
+	}
+
+	&__left {
+		display: flex;
+		align-items: center;
+		gap: 5px;
+	}
+
+	&__right {
+		display: flex;
+		align-items: center;
+		gap: 10px;
+		list-style-type: none;
+	}
+
+	&__link {
+		color: colors.$brand-4;
+		text-decoration: none;
+
+		&:hover {
+			color: colors.$brand-5;
+			text-decoration: underline;
+		}
+	}
+}
+
+.logo {
+	height: 50px;
+	width: 50px;
 }
