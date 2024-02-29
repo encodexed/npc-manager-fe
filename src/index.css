@@ -4,8 +4,17 @@
 
 	color: rgba(255, 255, 255, 0.87);
 	background-color: #313131;
+	/* background-image: url("./src/assets/manager-background.png");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat; */
 
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+	margin: 0;
 }
